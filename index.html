@@ -9,12 +9,29 @@
   </head>
   <body>
     <div>
-      <label for="name1">Player 1</label>
-      <input id="name1" type="text" placeholder="Alice" />
+      <div>
+        <label for="name1">Player 1</label>
+        <input id="name1" type="text" placeholder="Alice" class="name" />
+      </div>
+      <div>
+        <label for="name2">Player 2</label>
+        <input id="name2" type="text" placeholder="Bob" class="name" />
+      </div>
+    </div>
+
+    <div class="X-O-grid">
+      <div class="cell" id="c00"></div>
+      <div class="cell" id="c01"></div>
+      <div class="cell" id="c02"></div>
+      <div class="cell" id="c10"></div>
+      <div class="cell" id="c11"></div>
+      <div class="cell" id="c12"></div>
+      <div class="cell" id="c20"></div>
+      <div class="cell" id="c21"></div>
+      <div class="cell" id="c22"></div>
     </div>
     <div>
-      <label for="name2">Player 2</label>
-      <input id="name2" type="text" placeholder="Bob" />
+      <button class="restart-btn">Rematch</button>
     </div>
   </body>
 </html>
